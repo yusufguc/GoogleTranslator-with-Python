@@ -54,11 +54,11 @@ def translate_now():
 
 #İCON(
 
-image_icon=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-translation-50.png")
+image_icon=PhotoImage(file="icons8-translation-50.png")
 root.iconphoto(False,image_icon)
 
 #ARROW
-arrow_image=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-double-arrow-64.png")
+arrow_image=PhotoImage(file="icons8-double-arrow-64.png")
 image_label=Label(root,image=arrow_image,width=150)
 image_label.place(x=460,y=50)
 
